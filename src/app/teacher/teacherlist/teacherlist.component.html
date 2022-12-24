@@ -1,0 +1,20 @@
+<h1 align="center">teacherlist works!</h1>
+<table border="2" align="Center">
+
+    <th>Id <div *ngFor="let te of teach">
+        {{te.tid}}
+    </div></th>
+
+    <th>Name <div *ngFor="let te of teach">
+        {{te.tname}}
+    </div></th>
+    <th>Address <div *ngFor="let te of teach">
+        {{te.taddr}}
+    </div></th>
+    <th>Mob no <div *ngFor="let te of teach">
+        {{te.tmobno}}
+    </div></th>
+    <th>Salary<div *ngFor="let te of teach">
+        {{te.tsal}}
+    </div></th>
+</table>
